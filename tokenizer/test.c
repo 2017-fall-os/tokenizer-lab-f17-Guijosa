@@ -3,8 +3,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-char* input;
-
+/*Function to print each elemnt of the token vector*/
 void printTokenVector(char** vector)
 {
   char** iteratorTok;
@@ -17,6 +16,7 @@ void printTokenVector(char** vector)
     }
 }
 
+/*Function to compare two strings for equality*/
 int strEq(char* str1, char* str2)
 {
   char* iterator;
