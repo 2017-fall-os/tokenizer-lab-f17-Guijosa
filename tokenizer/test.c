@@ -43,7 +43,7 @@ int main()
   printTokenVector(mytoc("          ",' '));
   printTokenVector(mytoc(" HelloWorld",' '));
   printf("Test end\n");
-  Printf("Comencing user loop\n"
+  printf("Comencing user loop\n");
   printf("Maximum input size is 320 character\n");
   printf("Input exit to stop\n$ ");
   scanf("%320s",&input);
